@@ -55,7 +55,7 @@ function Todo() {
            <button onClick={AddHandler}>Add</button>
          </div>
          <div className={styles.alert}>
-        
+         {alert && <p>{alert}</p>}
         </div>
         <TodoList 
           todos={filteredTodos.length > 0 ? filteredTodos : todos} 

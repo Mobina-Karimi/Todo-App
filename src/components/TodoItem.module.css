@@ -17,5 +17,12 @@
 }
 .item button {
     margin-left: auto;
-    padding: 10px 15px;
+    margin-right: 2px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    background-color: rgb(250, 234, 214);
+    border: 1px solid #9b9a9a;
+    cursor: pointer;
+    text-align: center;
+    color: #2e2e2e;
 }

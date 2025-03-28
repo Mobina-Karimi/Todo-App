@@ -31,11 +31,26 @@
     padding: 13px 23px;
     border-radius: 2px;
     cursor: pointer;
-    text-align: center;color: #2e2e2e;
+    text-align: center;
+    color: #2e2e2e;
 }
 .container button:hover {
     background-color: #ed7469;
 }
+.alert {
+    width: 93%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.alert p {
+    background-color: #ed74691b;
+    color:#ed7469;
+    width: 90%;
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 4px;
+}
+
 @media(max-width : 700px){
     .text input{
         width: 75%;
